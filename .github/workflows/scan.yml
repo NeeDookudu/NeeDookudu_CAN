@@ -34,7 +34,7 @@ jobs:
           SUPER_KEY: ${{ secrets.SUPER_KEY }}
         run: |
           # Replace 'scraper.py' with your actual encoded/bootstrap python filename
-          python scraper.py 
+          python CANADA_RUN.py 
 
       - name: Commit and Push changes
         run: |
